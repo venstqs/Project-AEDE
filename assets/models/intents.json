@@ -1,0 +1,136 @@
+{
+  "classes": [
+    "aedes_mosquito",
+    "app_info",
+    "breeding_sites",
+    "fogging",
+    "goodbye",
+    "greeting",
+    "hospital",
+    "mission_points",
+    "naga_specific",
+    "prevention",
+    "rainy_season",
+    "report_how",
+    "risk_map",
+    "singapore_specific",
+    "symptoms",
+    "treatment",
+    "unclear"
+  ],
+  "intents": [
+    {
+      "tag": "greeting",
+      "responses": [
+        "Hello! I'm Katambay-AI, your dengue surveillance assistant for Naga City. How can I help you today?",
+        "Kumusta! Ako si Katambay-AI. Handa akong tumulong sa inyong mga katanungan tungkol sa dengue.",
+        "Hi there! I'm here to help with dengue prevention, symptoms, and reporting. What do you need?"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "responses": [
+        "⚠️ Key dengue symptoms:\n• Sudden high fever (38–40°C) for 2–7 days\n• Severe headache behind the eyes\n• Joint and muscle pain\n• Skin rash (red spots)\n• Nausea and vomiting\n• Mild bleeding (nose, gums)\n\n🚨 WARNING SIGNS (go to hospital immediately):\n• Severe abdominal pain\n• Persistent vomiting\n• Rapid breathing\n• Bleeding from gums or nose\n• Fatigue and restlessness\n\nIf you have these symptoms, consult Naga City General Hospital or BMC immediately.",
+        "Ang mga sintomas ng dengue ay:\n• Mataas na lagnat (38–40°C)\n• Matinding sakit ng ulo\n• Pananakit ng kasukasuan\n• Pula-pulang pantal sa balat\n• Pagduduwal at pagsusuka\n\nKung may sintomas ka, pumunta agad sa pinakamalapit na ospital sa Naga City."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "responses": [
+        "🛡️ Follow the DOH 4S Campaign:\n\n1️⃣ SEARCH & DESTROY breeding sites\n• Empty, clean or throw away containers that hold water\n• Cover water storage containers tightly\n• Change flower vase water every 2 days\n• Clear clogged gutters and drains\n\n2️⃣ SELF-PROTECT\n• Wear long sleeves and pants\n• Use mosquito repellent (DEET-based)\n• Use mosquito nets when sleeping\n\n3️⃣ SEEK EARLY CONSULTATION\n• Go to the doctor at the first sign of fever\n• Don't self-medicate with Aspirin or Ibuprofen\n\n4️⃣ SAY YES to fogging only during outbreaks",
+        "Para maiwasan ang dengue:\n• Alisin ang lahat ng nakatenggang tubig\n• Gumamit ng mosquito repellent\n• Magsuot ng mahabang damit\n• Huwag hayaang mag-ipon ng tubig sa mga basurahan\n• I-report ang breeding sites sa pamamagitan ng Katambay-AI app"
+      ]
+    },
+    {
+      "tag": "breeding_sites",
+      "responses": [
+        "🦟 Aedes aegypti mosquitoes breed in STAGNANT WATER. Common breeding sites in Naga City:\n\n• Uncovered water drums and containers\n• Flower vase water (change every 2 days)\n• Used tires with trapped water\n• Clogged roof gutters\n• Plant saucers under pots\n• Outdoor pet water bowls\n• Poorly sealed septic tanks\n• Construction site puddles\n\n✅ Check your home weekly and eliminate all standing water sources. Report suspicious sites using the Katambay-AI report feature."
+      ]
+    },
+    {
+      "tag": "hospital",
+      "responses": [
+        "🏥 Hospitals for dengue in Naga City:\n\n• Bicol Medical Center (BMC) — Concepcion Grande\n  📞 (054) 472-0500\n\n• Naga City General Hospital — Panganiban Drive\n  📞 (054) 472-1736\n\n• NICC Doctors Hospital — Igualdad St.\n\n• Mother Seton Hospital — Gen. Luna St.\n\n🚨 If you see warning signs (severe abdominal pain, bleeding, difficulty breathing), go to the EMERGENCY ROOM immediately. Do not wait.",
+        "🏥 Hospitals for dengue in Singapore:\n\n• Singapore General Hospital (SGH) — Outram Road\n  📞 6222 3322\n\n• Tan Tock Seng Hospital (TTSH) — Moulmein Road\n  📞 6256 6011\n\n• National University Hospital (NUH) — Lower Kent Ridge\n  📞 6779 5555\n\n• Changi General Hospital (CGH) — Simei\n  📞 6788 8833\n\n💊 For mild fever, visit any polyclinic first. Call 995 for emergencies.\n\n🚨 Go to A&E immediately if: severe abdominal pain, bleeding gums, vomiting blood, or extreme fatigue."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "responses": [
+        "💊 DENGUE TREATMENT (there is NO specific cure):\n\n✅ DO:\n• Rest completely\n• Drink plenty of fluids (water, oral rehydration salts, coconut water)\n• Take PARACETAMOL only for fever and pain\n• Monitor platelet count — normal is 150,000–400,000/µL\n• Consult a doctor IMMEDIATELY\n\n❌ DO NOT:\n• Take Aspirin, Ibuprofen, or Mefenamic Acid — these worsen bleeding!\n• Self-medicate or delay hospital visit\n• Ignore warning signs\n\n⚠️ Dengue can be fatal if not treated properly. When in doubt, go to the nearest hospital."
+      ]
+    },
+    {
+      "tag": "report_how",
+      "responses": [
+        "📋 How to report a dengue vector site using Katambay-AI:\n\n1. Tap the ⚡ REPORT tab at the bottom of the screen\n2. Use ARIA AI to describe the situation\n3. Or tap the Community tab → tap the + button\n4. Describe the breeding site or situation\n5. Tag your location (barangay or landmark)\n6. Attach a photo as evidence (tap Camera or Gallery)\n7. Tap POST INTEL to submit\n\nYour report goes to pending review and will be verified by the Naga City Health Office team. Thank you for being a Katambay Guardian!"
+      ]
+    },
+    {
+      "tag": "app_info",
+      "responses": [
+        "🤖 Katambay-AI is an AI-powered dengue vector surveillance system for Naga City, Bicol.\n\nFeatures:\n• 🗺️ Real-time dengue risk MAP by barangay\n• 📡 AI-powered ARIA chatbot (me!) for dengue Q&A\n• 📊 Outbreak prediction using LSTM machine learning\n• 📋 Citizen REPORTING of breeding sites\n• 👥 COMMUNITY feed for sharing local alerts\n• 🏅 Guardian missions and leaderboard to earn points\n\nDeveloped in coordination with Naga City LGU, CDRRMO, and DOH Region V."
+      ]
+    },
+    {
+      "tag": "risk_map",
+      "responses": [
+        "🗺️ To check the Naga City Dengue Risk Map:\n\n1. Tap the MAP tab (🗺️) at the bottom of your screen\n2. The map shows all 27+ barangays with color-coded risk levels:\n   • 🔴 Red = HIGH RISK — active cases reported\n   • 🟡 Yellow = MODERATE RISK — elevated vector activity\n   • 🟢 Green = LOW RISK — minimal activity\n\nHigh-risk zones historically include Dayangdang, Concepcion Grande, and Tabuco.\n\nThe AI prediction model updates risk levels using weather data, historical cases, and IoT sensor readings.",
+        "🗺️ To check the Singapore Dengue Risk Map:\n\n1. Tap the MAP tab (🗺️) at the bottom of your screen\n2. The map shows Singapore's planning regions (Central, North, North-East, East, West) with color-coded risk levels:\n   • 🔴 Red = HIGH RISK — active NEA dengue clusters\n   • 🟡 Yellow = MODERATE RISK — elevated vector activity\n   • 🟢 Green = LOW RISK — minimal activity\n\nHistorically, Central Region and North-East Region see elevated dengue activity.\n\nNEA's official dengue cluster data is updated regularly at dengue.gov.sg."
+      ]
+    },
+    {
+      "tag": "aedes_mosquito",
+      "responses": [
+        "🦟 About the Dengue Mosquito:\n\nDengue is caused by the bite of the **Aedes aegypti** mosquito.\n\nKey facts:\n• It has distinctive black and white stripe markings\n• It bites primarily DURING THE DAY (peak hours: early morning and late afternoon)\n• It breeds in CLEAN STAGNANT WATER (not dirty water)\n• It can fly up to 400 meters from its breeding site\n• Only the female mosquito bites\n• Incubation period: 4–10 days after the bite\n\n⚠️ Aedes aegypti is also the carrier of Zika and Chikungunya viruses."
+      ]
+    },
+    {
+      "tag": "mission_points",
+      "responses": [
+        "🏅 Guardian Missions & Points:\n\nYou can earn XP points by:\n• ✅ Completing Guardian Missions (shown in Profile tab)\n• 📋 Submitting verified community reports\n• 🗺️ Checking the risk map regularly\n• 💬 Engaging with the AI chatbot\n• 👥 Contributing to community discussions\n\nRanks:\n• Guardian Cadet (0–999 pts)\n• Guardian Elite (1000–2499 pts)\n• Guardian Commander (2500+ pts)\n\nTop guardians appear on the leaderboard in the Profile tab!"
+      ]
+    },
+    {
+      "tag": "rainy_season",
+      "responses": [
+        "🌧️ Dengue during Rainy Season:\n\nDengue cases SPIKE during and after heavy rainfall because:\n• Rain creates new puddles and pools where Aedes breeds\n• Warm, humid conditions accelerate mosquito life cycle\n• Flooded areas create hidden breeding grounds\n\n⚠️ After typhoons and heavy rain:\n• Check all containers and drainage immediately\n• Wear long clothes even indoors\n• Apply repellent more frequently\n• Be extra alert for fever symptoms\n\nKatambay-AI monitors rainfall data from OpenWeatherMap to predict outbreak risks in Naga City."
+      ]
+    },
+    {
+      "tag": "fogging",
+      "responses": [
+        "🌫️ About Fogging (Chemical Control) — Philippines:\n\nThe DOH and Naga City Health Office ONLY recommend fogging:\n• During active outbreaks (dengue cases confirmed in an area)\n• NOT as a preventive measure\n\nWhy? Fogging kills ADULT mosquitoes but NOT eggs or larvae. It only provides short-term relief.\n\n✅ More effective long-term solutions:\n• Search and Destroy (eliminating breeding sites)\n• Ovicidal-larvicidal traps (OL traps)\n• Biological control (Bacillus thuringiensis)\n\nTo request fogging from Naga City Health Office:\n📞 Contact NCHO: (054) 472-0558",
+        "🌫️ About Dengue Control in Singapore:\n\n• NEA conducts thermal fogging in confirmed cluster areas\n• NEA's Project Wolbachia releases male Wolbachia-Aedes mosquitoes to reduce dengue mosquito population\n• Inspectors are deployed to areas with active dengue clusters\n\n✅ What you can do:\n• Check your home for stagnant water every week (Mozzie Wipeout)\n• Tip, toss, scrub all water containers\n• Report breeding sites to NEA via myENV app or 1800-CALL-NEA\n\n⚠️ Fogging alone is not sufficient — source reduction is key!"
+      ]
+    },
+    {
+      "tag": "singapore_specific",
+      "responses": [
+        "📍 Dengue Situation in Singapore:\n\nSingapore consistently reports thousands of dengue cases annually. The National Environment Agency (NEA) monitors all dengue clusters.\n\nKatambay-AI tracks Singapore's 5 Planning Regions:\n• Central Region — includes Queenstown, Bishan, Toa Payoh (historically higher cluster density)\n• North-East Region — Hougang, Punggol, Sengkang\n• East Region — Bedok, Tampines, Changi\n• North Region — Woodlands, Yishun, Sembawang\n• West Region — Jurong, Bukit Batok, Clementi\n\nNEA's official tracking: dengue.gov.sg\n\nReport suspected breeding sites via myENV app or call 1800-CALL-NEA (1800-2255-632).",
+        "🦟 Singapore Dengue Facts:\n\n• Singapore's tropical climate makes it year-round dengue territory\n• Aedes aegypti AND Aedes albopictus are both present in Singapore\n• NEA runs Project Wolbachia — releasing sterile male Wolbachia mosquitoes to suppress wild mosquito populations\n• The Mozzie Wipeout campaign encourages weekly home inspections\n\n🔴 High-risk periods: During El Niño weather events (hotter, drier spells) dengue clusters tend to spike.\n\nKatambay-AI overlays real-time weather data on the Singapore risk map to help you stay ahead of outbreaks."
+      ]
+    },
+    {
+      "tag": "naga_specific",
+      "responses": [
+        "📍 Dengue Situation in Naga City:\n\nNaga City is located in Bicol Region, which consistently records high dengue cases annually.\n\nHistorically high-risk barangays:\n• Dayangdang — Zone 4 (residential density + drainage issues)\n• Concepcion Grande/Pequeña (urban flooding risk)\n• Tabuco (market area, stagnant drains)\n• Liboton and Triangulo\n\nKatambay-AI continuously monitors:\n• CDRRMO incident reports\n• DOH Region V case data\n• IoT environmental sensor readings\n• Community reports from Guardian volunteers\n\nReport any breeding sites you see using the Community tab! 🦟"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "responses": [
+        "Stay safe and keep Naga City dengue-free! 🦟 Remember — search, destroy, protect! 💪",
+        "Salamat! Ingat lagi at magtulungan nating mapigilan ang dengue sa Naga City! 🏙️",
+        "Take care! If you spot any breeding sites, use the Report tab to alert the community. Mabuhay! 🇵🇭"
+      ]
+    },
+    {
+      "tag": "unclear",
+      "responses": [
+        "I'm sorry, I didn't quite understand. I can help you with:\n• Dengue symptoms and treatment\n• Prevention tips (4S Campaign)\n• Risk map information\n• How to report breeding sites\n• Hospital locations in Naga City\n• App features\n\nWhat would you like to know?",
+        "Paumanhin, hindi ko naintindihan. Maaari akong tumulong sa:\n• Sintomas ng dengue\n• Pag-iwas sa dengue\n• Paano mag-report\n• Mga ospital sa Naga City\n\nAnong gusto mong malaman?"
+      ]
+    }
+  ]
+}
