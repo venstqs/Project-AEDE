@@ -1,6 +1,19 @@
-# AEDE (Katambay-AI) 🦟🛡️
+<div align="center">
+  <img src="./assets/images/icon.png" alt="AEDE App Logo" width="200" style="border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  
+  # AEDE (Katambay-AI) 🦟🛡️
+  
+  *Empowering communities to combat Dengue fever through AI and collective action.*
+</div>
 
 AEDE is a comprehensive mobile application built to combat the spread of Dengue fever. Powered by Artificial Intelligence and machine learning, this application empowers communities to identify, report, and predict Dengue outbreaks and mosquito breeding sites.
+
+---
+
+<div align="center">
+  <img src="./assets/images/mascot.png" alt="AEDE Mascot" width="150" style="margin: 0 20px;" />
+  <img src="./aede_ml_model_curves.png" alt="ML Model Curves" width="200" style="margin: 0 20px;" />
+</div>
 
 ## 🚀 Features
 
