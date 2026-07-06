@@ -56,6 +56,14 @@ Located in `train_chatbot.py`, an intelligent assistant designed to triage and a
 ## 📱 Mobile Application (Frontend)
 
 Built with **React Native** and **Expo Router**, providing a unified codebase for iOS and Android.
+
+### App Interface Previews
+<div align="center">
+  <img src="./assets/images/dashboard_mockup.jpg" alt="AEDE Dashboard Map" width="250" style="margin: 0 10px; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="./assets/images/reporting_mockup.jpg" alt="AEDE Hazard Reporting" width="250" style="margin: 0 10px; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="./assets/images/chatbot_mockup.jpg" alt="AEDE Health Chatbot" width="250" style="margin: 0 10px; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+</div>
+
 * **File-Based Routing**: Clean navigation stack located in the `/app` directory.
 * **Hardware Integrations**: Camera and Gallery permissions to capture and submit geolocated hazard reports.
 * **On-Device Inference**: Utilizes translated ML weights to perform rapid outbreak risk assessments offline.
