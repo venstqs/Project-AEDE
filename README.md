@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# AEDE (Katambay-AI) 🦟🛡️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AEDE is a comprehensive mobile application built to combat the spread of Dengue fever. Powered by Artificial Intelligence and machine learning, this application empowers communities to identify, report, and predict Dengue outbreaks and mosquito breeding sites.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+* **📱 Cross-Platform Mobile App**: Built with Expo and React Native, offering seamless experience on both iOS and Android.
+* **📸 Hazard Reporting**: Users can take photos or upload images from their gallery to report Dengue hazards and potential mosquito breeding sites.
+* **🧠 AI-Powered Detection (CNN)**: Integrated Convolutional Neural Network (CNN) models for image classification.
+* **🔮 Outbreak Predictor**: Machine learning module utilizing a Random Forest model to analyze data and predict potential dengue outbreak zones.
+* **💬 Smart Chatbot**: An intelligent assistant ready to answer questions about Dengue prevention, symptoms, and community health.
+* **☁️ Cloud Backend**: Powered by Supabase for robust, secure, and scalable database management.
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Technology Stack
 
-2. Start the app
+* **Frontend:** React Native, Expo, Expo Router
+* **Backend:** Supabase (PostgreSQL, Authentication, Storage)
+* **Machine Learning:** Python, Scikit-Learn (Random Forest), TensorFlow/Keras (CNN)
+* **Database & Data:** SQL
 
-   ```bash
-   npx expo start
-   ```
+## 🚦 Getting Started
 
-In the output, you'll find options to open the app in a
+### Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Python 3.x](https://www.python.org/) (for ML training scripts)
+- Expo CLI or [Expo Go](https://expo.dev/go) app on your mobile device.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 1. Installation
 
-## Get a fresh project
-
-When you're ready, run:
+Clone the repository and install the JavaScript dependencies:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Environment Variables
 
-## Learn more
+Create a `.env` file in the root of the project based on the `.env.example` file. You will need to add your Supabase keys and other specific configuration variables:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cp .env.example .env
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3. Start the App
 
-## Join the community
+Run the development server:
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You can then open the app:
+- On your physical device using the **Expo Go** app (scan the QR code).
+- On an **Android emulator**.
+- On an **iOS simulator**.
+
+## 🧠 Machine Learning Scripts
+
+The project includes several Python scripts located in the root directory for training the AI models:
+
+* `train_cnn_classifier.py` - Trains the image classification model for hazard detection.
+* `ml_outbreak_predictor.py` - Manages the outbreak prediction logic.
+* `train_chatbot.py` - Trains the chatbot's conversational AI model.
+* `generate_finalist_charts.py` - Generates analytical charts based on the predictions.
+
+## 🗄️ Database Setup
+
+The necessary SQL scripts to set up the Supabase backend are provided:
+* `supabase_setup.sql`: Initial schema and tables.
+* `seed_dummy_posts.sql`: Dummy data for testing.
+
+---
+
+*This project is private and intended for the development team.*
