@@ -42,3 +42,15 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Python & ML artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Local recovery scratch folders
+recovered_versions/
+recovery/
+view_history/
